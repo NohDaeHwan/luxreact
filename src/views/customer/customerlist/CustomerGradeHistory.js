@@ -18,9 +18,9 @@ import SecondaryAction from 'ui-component/cards/CardSecondaryAction';
 import SearchSection from 'layout/MainLayout/Header/SearchSection';
 import { SelectField } from './SelectField';
 
-function CustomerDetailSubCard({user}) {
+function CustomerGradeHistory({user}) {
     return (
-    <SubCard title="회원 정보" secondary={<SecondaryAction link="https://next.material-ui.com/system/typography/" />}>
+    <SubCard title="등급 내역" secondary={<SecondaryAction link="https://next.material-ui.com/system/typography/" />}>
     {/* <Grid container direction="column" spacing={1}>
     <Grid item>
         <SelectField></SelectField>
@@ -92,7 +92,7 @@ function CustomerDetailSubCard({user}) {
 )
 }
 
-export default CustomerDetailSubCard;
+export default CustomerGradeHistory;
 
 
 
